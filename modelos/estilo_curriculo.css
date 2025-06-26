@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container-linha {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 800px;
+  margin: 30px auto 0;
+}
+
+.perfil {
+  background: white;
+  border: 2px solid red;
+  border-radius: 5px;
+  width: 30%;
+  height: 550px;
+  text-align: center;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+.perfil img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.contato {
+  background: white;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin-top: 15px;
+  width: auto;
+  text-align: left;
+}
+
+.preferencias {
+  background: white;
+  border: 2px solid red;
+  border-radius: 5px;
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+.bloco {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: white;
+}
+
+h1 {
+  margin: 10px 0 5px;
+}
+
+h2 {
+  color: #333;
+  margin-top: 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
